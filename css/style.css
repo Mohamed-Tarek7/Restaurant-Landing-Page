@@ -1,0 +1,477 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    color: white;
+    background-color: rgb(1, 1, 56);
+    height: 35px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.home button:hover{
+    background-color: greenyellow;
+    width: 150px;
+    transition-duration: 0.5s;
+}
+
+.logo{
+    color: rgb(1, 1, 56);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.logo svg{
+    width: 30px;
+    height: 30px;
+}
+
+.links_list{
+    width: 20%;
+    margin: 5px 0px;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.section:hover{
+    background-color: greenyellow;
+}
+
+a{
+    color: rgb(1, 1, 56);
+}
+
+.icons{
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.icons svg{
+    width: 20px;
+    height: 20px;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(191, 189, 189);
+}
+
+.option:hover{
+    background-color: greenyellow;
+    transform: rotateZ(360deg);
+    transition-duration: 0.25s;
+}
+
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+}
+
+.home-content{
+    width: 28%;
+}
+
+.home p{
+    font-size: 25px;
+    margin: 12px 0px;
+}
+
+.home h1{
+    font-size: 80px;
+}
+
+.dishes{
+    background-color: rgb(235, 229, 222);
+    text-align: center;
+}
+
+.dishes p{
+    color: rgb(1, 1, 56);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.dishes-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dishes svg{
+    width: 20px;
+    height: 20px;
+}
+
+.dishes-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(191, 189, 189);
+}
+
+.dishes-option:hover{
+    background-color: greenyellow;
+    transition-duration: 0.5s;
+}
+
+.border1, .border2, .border3{
+    display: flex;
+    justify-content: center;
+}
+
+.title p{
+    padding-top: 20px;
+}
+
+.for-border{
+    width: 100px;
+    height: 1px;
+    border-top: 2px solid greenyellow;
+    background-color: rgb(251, 248, 245);
+    margin: 3px 0px;
+}
+
+.for-border-longer{
+    width: 150px;
+    height: 1px;
+    border-top: 2px solid greenyellow;
+    background-color: rgb(251, 248, 245);
+}
+
+.title h2{
+    margin-top: 40px;
+}
+
+.dishes-cards-container{
+    display: flex;
+    justify-content: center;
+}
+
+.dishes-cards{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.dishes-card-lay{
+    width: 22%;
+    height: 40vh;
+    text-align: center;
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 12px;
+    padding-top: 12px;
+}
+
+.dishes-card-lay p{
+    font-size: 25px;
+}
+
+.dishes-card-lay img{
+    padding-top: 15px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.price p{
+    color: green
+}
+
+.price button:hover{
+    background-color: greenyellow;
+    transition-duration: 1s;
+}
+
+.about .title{
+    text-align: center;
+}
+
+.about p{
+    color: rgb(1, 1, 56);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 12px 0px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+}
+
+.about-container p{
+    font-size: 20px;
+    font-weight: lighter;
+    color: grey;
+}
+
+.about-content{
+    width: 35%;
+}
+
+.services-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(1, 1, 56);
+    border-radius: 5px;
+    background-color: rgb(255, 251, 245);
+    width: 200px;
+}
+
+.services svg{
+    width: 20px;
+    height: 20px;
+    margin: 12px 4px;
+}
+
+.about button:hover{
+    background-color: greenyellow;
+    width: 150px;
+    transition-duration: 0.5s;
+}
+
+.menu{
+    background-color: rgb(235, 229, 222);
+}
+
+.menu .title{
+    text-align: center;
+}
+
+.menu p{
+    color: rgb(1, 1, 56);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.menu-icons{
+    display: flex;
+    justify-content: end;
+    padding-right: 15px;
+}
+
+.menu svg{
+    width: 20px;
+    height: 20px;
+}
+
+.menu-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(191, 189, 189);
+}
+
+.menu-option:hover{
+    background-color: greenyellow;
+    transition-duration: 0.5s;
+}
+
+.menu-cards-container{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-cards{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.menu-card-lay{
+    width: 25%;
+    height: 50vh;
+    background-color: white;
+    margin: 10px 0px;
+    border-radius: 12px;
+    padding-top: 12px;
+}
+
+.menu-card-lay p{
+    font-size: 25px;
+}
+
+.menu-card-lay img{
+    width: 90%;
+    height: 50%;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.menu-text{
+    padding-left: 15px;
+}
+
+.menu-rate{
+    padding-left: 15px;
+}
+
+.menu-text{
+    padding-left: 15px;
+}
+
+.price p{
+    color: green
+}
+
+.menu-info p{
+    color: grey;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-left: 15px;
+}
+
+.order .title{
+    text-align: center;
+}
+
+.order p{
+    color: rgb(1, 1, 56);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    padding-top: 15px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 25px 0px;
+}
+
+form label{
+    display: block;
+}
+
+.order input{
+    width: 500px;
+    height: 30px;
+    background-color: rgb(235, 229, 222);
+    border-radius: 5px;
+}
+
+.order textarea{
+    background-color: rgb(235, 229, 222);
+    border-radius: 5px;
+}
+
+.in-hold{
+    margin: 10px 0px;
+}
+
+.order button:hover{
+    background-color: greenyellow;
+    transition-duration: 0.5s;
+}
+
+.button-container{
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+footer{
+    background-color: rgb(235, 229, 222);
+    padding-top: 15px;
+}
+
+.foot-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-container h2{
+    color: rgb(1, 1, 56);
+}
+
+.foot-container li{
+    margin: 10px 0px;
+}
+
+.foot-container a{
+    color: grey;
+}
+
+.foot-container a:hover{
+    color: greenyellow;
+    text-decoration:underline;
+}
+
+.copy{
+    display: flex;
+    justify-content: space-around;
+    background-color: greenyellow;
+    padding: 30px 0px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 8%;
+}
+
+.social svg{
+    width: 20px;
+    height: 20px;
+}
